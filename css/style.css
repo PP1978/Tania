@@ -1,0 +1,55 @@
+.gradient-background {
+  background: linear-gradient(300deg, #0000bc, #b32c32, #b8a3a4);
+  background-size: 180% 180%;
+  animation: gradient-animation 18s ease infinite;
+}
+
+@keyframes gradient-animation {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+.TipoLetra{
+  font-family: 'Outfit', sans-serif;
+}
+
+.CorLetras{
+  color: #0003aa;
+  font-family: 'Outfit', sans-serif;
+
+
+}
+
+.text-bg-dark {
+  --bs-text-opacity: 1;
+  color: rgba(var(--bs-emphasis-color-rgb),var(--bs-text-opacity))!important;
+}
+
+
+.background-image {
+
+  height: 10%;
+
+}
+
+.altura{
+  height: 5;
+}
+
+.icon-square {
+  width: 3rem;
+  height: 3rem;
+  border-radius: 0.75rem;
+}
+
+.profile-img {
+  height: 100px;
+  border-radius: 50%;
+}
